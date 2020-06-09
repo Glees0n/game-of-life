@@ -31,7 +31,6 @@ private:
 	void nextState();
 
 	int countCells(int col, int row);
-
 	bool checkBounds(int col, int row);
 
 	// User input methods

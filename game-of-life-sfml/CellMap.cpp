@@ -198,7 +198,10 @@ void CellMap::input()
 			}
 			else if (event.key.code == sf::Keyboard::I) // Generate random state
 			{
-				initialState();
+				if (paused)
+				{
+					initialState();
+				}
 			}
 			else if (event.key.code == sf::Keyboard::Right) // Next state
 			{

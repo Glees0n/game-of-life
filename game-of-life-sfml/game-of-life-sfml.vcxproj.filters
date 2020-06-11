@@ -32,10 +32,10 @@
     <ClInclude Include="Cell.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CellMap.h">
+    <ClInclude Include="Util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Util.h">
+    <ClInclude Include="CellMap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
